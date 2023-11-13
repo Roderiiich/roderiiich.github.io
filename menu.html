@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<style>
+
+*{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+  body{background-image:url("atender.png");
+      margin: 0%;
+      position: relative;
+      padding-bottom: 2.5em;
+      min-height: 100vh;
+      display: block;
+      justify-content: center;
+      align-items: center;}
+
+  nav {font-weight:bold;
+       font-size:20px;}
+
+
+    .nav-link{border-radius:10px;}
+    
+    .nav-link:hover{background-color:#CB975C;
+                  border-radius:10px;}
+    
+      .card-body{background-color:#442c17 ;
+                color: white;}
+              
+
+      .card-text{text-align: center;
+                text-shadow:2px 2px 7px black;
+                font-weight: bold;
+                font-size:25px;
+                border-radius: 1000px;
+                color: white;}  
+      
+      .card-subtext{font-weight: bold;
+                    color: white;}
+               
+
+      .card{
+        justify-content: center;
+        display:block;
+            width:80%;
+            height: 80%;
+            text-align: center;
+            padding:10px;
+          margin: auto;}
+    
+          
+        
+       #carrusel{background-image: url("reportaje-cafe-vf.jpeg");
+                  background-size: cover;
+                  margin: auto;
+                  padding: auto;}
+
+                  .margen-slider{margin-bottom: 0%;}
+     
+        .ubicacion{background-color:rgba(0, 0, 0, 0.6);
+                    border:3px solid white;
+                    border-radius:20px ;
+                    color: white;
+                    text-align: center;
+                   justify-content: center;
+                  margin-top: 30px;}
+
+
+.titulo-visitanos{font-size:45px;margin-top:7%;
+                  background-color:beige;
+                  color: black;
+                  border-radius: 100px;
+                  border:3px solid black;
+                  text-align: center;
+                margin-bottom: 25px;}
+
+
+      .visitanos{padding: auto;}
+   
+         
+          .mapa{background-color:rgba(0, 0, 0, 0.6);
+                border:3px solid white;
+                border-radius:20px ;
+                color: white;
+                display: block;
+                margin: auto;}
+          
+
+        .frase{background-color:rgba(0, 0, 0, 0.6);
+                border:3px solid white;
+                border-radius:20px ;
+                color: white;
+                text-align: center;
+              justify-content: center;}
+
+    .frase-membresia{background-color:rgba(0, 0, 0, 0.6);
+                border:3px solid white;
+                border-radius:20px ;
+                color: white;
+                text-align: center;
+              justify-content: center;
+            font-size: 30px;
+          }
+
+    .membresia{background-color:rgba(0, 0, 0, 0.6);
+                border:3px solid white;
+                border-radius:20px ;
+                color: white;
+                text-align: center;
+                justify-content: center;
+                align-items: center;}
+
+          #vip {width:300px;
+          font-size:30;
+          background-color:#A06C40;
+          border:3px solid white;
+          font-size:30px; 
+          font-weight:bold;
+          text-shadow:3px 5px 5px black;
+          color:white;
+          margin:  auto;
+          border-radius:30px;
+          padding:auto;
+          display: block;
+       }
+
+    #vip:hover{background-color:brown;}
+                
+              
+
+      .listado-miembro{
+                      list-style-type: none;
+                      font-size: 28px;
+                      display: block;}
+      
+
+      #catalogo-titulo{text-align: center;
+                      justify-content: center;
+                      font-weight: bold;
+                      background-color: black;
+                      color: white;
+                      font-size: 150px;
+                      border: 10px solid #583314;}
+
+
+        .catalogo{font-size: 100px;}
+  
+ .footer { background-color: black;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          padding: 1em 0;
+          color: white;}
+          
+          
+.slider-frame {
+  border: 10px solid rgb(228, 147, 82);
+	padding-bottom:0;
+  margin: 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+
+	display: flex;
+	padding:0;
+	width: 400%;
+	
+	animation: slide 17s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+  
+        
+          
+  </style>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Café del Negro José </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon"  href="logonegro.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+
+
+<div id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light  " style="background-color: beige;" >
+  <div class="container-fluid" style="font-family:Georgia;">
+    <img src="logonegro.png" width="60">
+        <a class="navbar-brand" href="index.html">Café del Negro José <i class="bi bi-house-fill" ></i> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Historia.html"><i class="bi bi-file-text-fill"></i> Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="menu.html"><i class="bi bi-menu-up"></i> Menú</a>
+        </li>         
+        <li class="nav-item  ">
+          <a class="nav-link active" href="iniciosesion.html"><i class="bi bi-person-fill"></i> Inicio de sesión</a>
+        </li>        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid d-flex   justify-content-center align-items-center" id="carrusel">
+  <div class="row">
+    <div class="col-3">
+      <h1 class="titulo-visitanos"> Hazte Miembro</h1>
+      <div class="listado-miembro">
+        <p class="frase-membresia">Obtendras los siguientes beneficios en nuestro local</p>
+        <br>
+        
+        <ul class="membresia">
+          
+            <li>Descuentos Únicos para ti</li>
+            <li>Reservas Prefenciales</li>
+            <li>Acceso a eventos privados</li>
+            <li>Regalos sorpresas</li>
+        </ul>
+        
+        <a class="btn btn-primary" href="iniciosesion.html" role="button" id="vip">Ser VIP <i class="bi bi-person-hearts"></i></a>
+    </div>
+    
+
+    </div>
+    <div class="col-6">
+      
+      <div class="slider-frame">
+        <ul class="margen-slider">
+          
+            <li><img src="slider1.jpg" alt=""></li>
+            <li><img src="slider2.jpg" alt=""></li>
+            <li><img src="slider3.jpg" alt=""></li>
+            <li><img src="slider4.jpg" alt=""></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="col-3">
+
+      <h1 class="titulo-visitanos">¡Ven a Visitarnos!</h1>
+      
+     
+   <div class="visitanos">
+      <img class="mapa" src="ubi.png" alt="" width="40%">
+      <p class="ubicacion" style="font-size:25px;">Nos ubicamos en Calle Victoria #1275, sector Barrio Universitario de Concepción</p>
+      <p class="frase" style="font-size:25px;margin-top:2%;padding:auto;">Ven a disfrutar de un café excepcional, delicias frescas y un ambiente encantador. </p>
+      </div>
+      </div>  
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid align-items-center justify-content-center" id="catalogo-titulo">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="catalogo">Nuestro catálogo de Preparaciones</h1>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid   justify-content-center" id="contenedor" >
+  <br>
+  <br>
+  <div class="row">
+    
+    <div class="col-4">
+      <div class="card">
+      <div class="card-body">
+        <p class="card-text">Café Capuchino</p>
+      </div>
+      <img src="capuchinocard.jpeg" alt="Card image">
+      <div class="card-body">
+        <p class="card-subtext">El café cappuccino es una bebida italiana que combina partes iguales de espresso,
+           leche al vapor y espuma de leche. Se caracteriza por su equilibrio entre 
+           la intensidad del café y la suavidad de la leche, con una capa de espuma que proporciona 
+           una textura cremosa. El nombre "cappuccino" se deriva de la semejanza de su color con el
+            hábito de los monjes capuchinos, que es de un marrón similar al café con una capucha blanca
+             como la espuma de leche. La proporción clásica es 1/3 de espresso, 1/3 de leche al vapor y 1/3
+              de espuma de leche, aunque puede haber variaciones..</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-4">
+      <div class="card">
+      <div class="card-body">
+        <p class="card-text">Café Mocaccino</p>
+      </div>
+      <img src="mocachinocard.jpeg" alt="Card image">
+      <div class="card-body">
+        <p class="card-subtext">El café moccaccino es una variante del café latte que incluye espresso,
+           leche al vapor y chocolate. Su nombre deriva de la palabra italiana "mocaccino",
+            que hace referencia al chocolate. La bebida combina la intensidad del espresso con la cremosidad
+             de la leche y el sabor a chocolate, creando una experiencia indulgente y deliciosa. 
+             Algunas versiones pueden incluir adiciones como crema batida o espolvoreado de cacao encima.</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-4">
+      <div class="card">
+      <div class="card-body">
+        <p class="card-text">Café Espresso</p>
+      </div>
+      <img src="expresocard.jpeg" alt="Card image">
+      <div class="card-body">
+        <p class="card-subtext">El espresso es una variedad de café concentrado y fuerte, elaborado al forzar agua 
+          caliente a través de café finamente molido. Se caracteriza por su rápida preparación y su sabor 
+          intenso y robusto. Un espresso típicamente se sirve en cantidades pequeñas, generalmente en un
+           solo trago. La presión utilizada en el proceso de extracción contribuye a la formación de una
+            capa cremosa conocida como "crema". Esta bebida forma la base de muchas otras variedades de café,
+             como el cappuccino, latte, y macchiato.</p>
+      </div>
+    </div>
+  </div>
+  
+<div class="container-fluid   justify-content-center" id="contenedor">
+<br>
+<br>
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+        <div class="card-body">
+          <p class="card-text">Café Americano</p>
+        </div>
+        <img src="americanocard.jpeg" alt="Card image">
+        <div class="card-body">
+          <p class="card-subtext">El café americano es una bebida de café diluida que se obtiene
+             añadiendo agua caliente al espresso. Se diferencia de otras variedades de café por 
+             su mayor volumen y sabor más suave. La preparación del americano implica agregar agua
+              caliente al espresso para lograr una bebida similar en fuerza a un café filtrado o goteo,
+               pero con un carácter distintivo de espresso. La proporción de agua al espresso puede variar
+                según las preferencias personales, y a menudo se sirve en tazas más grandes que las utilizadas
+                 para el espresso puro.</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-4"><div class="card">
+        <div class="card-body">
+          <p class="card-text">Café Latte</p>
+        </div>
+        <img src="lattecard.jpeg" alt="Card image">
+        <div class="card-body">
+          <p class="card-subtext">El café latte es una popular bebida a base 
+            de café que se origina en Italia. 
+            Su nombre "latte" proviene de la palabra italiana que significa 
+            "leche". La bebida está compuesta principalmente por espresso y leche al vapor. 
+            La proporción típica es de un tercio de espresso y dos tercios de leche,
+             aunque esto puede variar según las preferencias individuales</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-4"><div class="card">
+        <div class="card-body">
+          <p class="card-text">Café Cortado</p>
+        </div>
+        <img src="cafecortadocard.jpeg" alt="Card image">
+        <div class="card-body">
+          <p class="card-subtext">El café cortado es una bebida de café que consiste en un espresso "cortado" o
+             "corto" con una pequeña cantidad de leche caliente o vaporizada. La palabra "cortado" en español
+              significa "cortado", y en este contexto indica que el espresso se "corta" o se mezcla con un toque
+               de leche. La proporción de café a leche en un cortado puede variar, pero generalmente es una 
+               pequeña cantidad de leche en comparación con el espresso, lo que resulta en una bebida más fuerte
+               que un café con leche pero más suave que un espresso puro.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+ 
+  </div>
+  <br>
+   
+  <footer class="footer">Copyright © 2023. Todos los derechos reservados a interfaz usuario generación 2023.</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+  </body>
+  
+</html>

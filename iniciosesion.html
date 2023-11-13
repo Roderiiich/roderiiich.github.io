@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<style>
+
+
+
+  body{background-color:black;
+      margin: 0%;
+      position: relative;
+      padding-bottom: 2.5em;
+      min-height: 100vh;
+      display: block;
+      justify-content: center;
+      align-items: center;}
+
+  nav {font-weight:bold;
+       font-size:20px;}
+
+    .nav-link{border-radius:10px;}
+    
+    .nav-link:hover{background-color:#CB975C;
+                  border-radius:10px;}
+
+  #login {font-weight:bold;
+          color:white;
+          font-size:26px;
+          text-shadow:3px 5px 5px black;
+          text-align:center;
+          justify-content: center;
+          background-image: url('reportaje-cafe-vf.jpeg');
+          background-size:cover;}
+
+
+          
+
+  #formu {width:300px;
+          margin:0 auto;}
+
+  #bordeformu {background-color:white ;
+              border:3px solid whitesmoke;
+              border-radius:20px;
+              background: rgba(0, 0, 0, 0.5); }
+         
+
+  #boton {width:300px;
+          font-size:30;
+          background-color:#A06C40;
+          border:3px solid white;
+          border-radius:60px;
+          font-size:30px; 
+          font-weight:bold;
+          text-shadow:3px 5px 5px black;
+         color:white;
+         text-align: center;
+         margin-bottom:10%;}
+
+    #boton:hover{background-color:brown;}
+        
+
+
+ 
+  #Atendemos {font-weight:bold;
+            color:white;
+            text-shadow:3px 5px 5px black;
+            font-size:22px;
+            font-family:inherit;}
+
+
+  #Columna1 {background-color:brown;}
+
+  #Columna2 {background-color:brown;}
+
+
+
+  
+ footer { background-color: black;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          padding: 1em 0;
+          color: white;}
+
+  
+        
+          
+  </style>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Café del Negro José </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon"  href="logonegro.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+
+
+<div id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light  " style="background-color: beige;" >
+  <div class="container-fluid" style="font-family:Georgia;">
+    <img src="logonegro.png" width="60">
+        <a class="navbar-brand" href="index.html">Café del Negro José <i class="bi bi-house-fill" ></i> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Historia.html"><i class="bi bi-file-text-fill"></i> Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="menu.html"><i class="bi bi-menu-up"></i> Menú</a>
+        </li>         
+        <li class="nav-item  ">
+          <a class="nav-link active" href="iniciosesion.html"><i class="bi bi-person-fill"></i> Inicio de sesión</a>
+        </li>        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid" id="login">
+  <br>
+  <br>
+  
+  <form style="text-align:center;">
+
+<div class="row"  id="row1"  >
+
+
+  <div class="col-4"></div>
+
+  <div class="col-4" id="bordeformu">
+  <div class="form-group">
+    
+    <br>
+    <img style="background-color:beige;border-radius:800px;width:50%;" src="logonegro.png">
+    <br>
+    <br>
+    <strong for="formGroupExampleInput"><i class="bi bi-person-fill"></i> Nombre:</strong>
+    <p><input  type="text" class="form-control" id="formu" placeholder="El Negro José" required ></p>
+  </div>
+    <br>
+
+
+  <div class="form-group">
+    <strong for="formGroupExampleInput2"><i class="bi bi-incognito"></i> Contraseña:</strong>
+    <p><input type="password" class="form-control" id="formu" maxlength="15" placeholder="123456789nigger" required></p>
+  </div>
+    
+    <br>
+
+
+    <div class="form-group">
+    <strong for="formGroupExampleInput3"><i class="bi bi-envelope-fill"></i> Correo Electronico:</strong>
+    <p ><input type="email" class="form-control" id="formu" placeholder="negrojosé@mail.com" required></p>
+  </div>
+    <br>
+
+
+  
+    <p><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked> Acepta recibir ofertas  a su correo electrónico.</p>
+    
+
+
+
+    <br>
+    <a class="btn btn-primary" href="index.html" role="button" id="boton" required >Registrarse <i class="bi bi-fast-forward-circle-fill"></i></a>
+    
+    <br>
+    
+</form>
+
+</div>
+  <div class="col-4"></div>
+</div>
+<br>
+<br> 
+
+</div>
+
+
+
+
+
+<div class="container-fluid" id="Atendemos">
+  
+  <div class="row" style="background-image:url('atender.png'); text-align:center;">
+
+    
+  <div class="col-6">
+    <br>
+    <div class="shadow-lg p-3 mb-5 rounded" style="background-color:#8F6441;" id="Columna1">
+        <h1 style="background-color: #6B4D34;">Atendemos 24/7</h1>
+        <p>Pero el Café del Negro José no es solo un lugar para los amantes del café; es un espacio inclusivo donde personas de todas las edades, culturas y trasfondos se reúnen. Aquí, las historias se entrelazan y las ideas fluyen libremente, creando un ambiente de camaradería que trasciende las barreras del tiempo.</p>
+    </div>
+
+  </div>
+
+  <div class="col-6">
+    <br>
+    <div class="shadow-lg p-3 mb-5 rounded" style="background-color:#8F6441;" id="Columna2">
+        <h1 style="background-color: #6B4D34;">¡¡Ven y crea tu propio café!!</h1>
+
+        <p>Porque este es  "Tú Café, Tú Estilo", te invitamos a liberar tu creatividad y explorar el universo infinito de posibilidades que ofrece el café. Imagina un espresso robusto con un toque de caramelo y un aroma a vainilla que te transporta a tu lugar favorito. ¿O prefieres un café helado con notas de chocolate y avellana que te despierte en cada sorbo? ¡La elección es tuya!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer text-white text-sm-left text-md-center" style="background-color: black;">
+  <div class="container-fluid" id="futer">    
+        <p class="mb-0" >Copyright © 2023. Todos los derechos reservados a interfaz usuario generación 2023.</p>   
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+
+</html>
