@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5A2875;
+}
+h1{
+    text-shadow: 3px 3px 6px  black;
+}
+
+header.sticky ul li a {
+    color:#ffffff
+ }
+ header.sticky{
+    padding: 10px 50px;
+    background-color: #5A2875;
+  
+ }
+ header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
+    background-color: #5A2875;
+ 
+ }
+ .btn-whatsapp i{
+    background-color:rgb(2, 136, 69) ;
+ }
+ 
+ 
+ 
+ .btn-whatsapp{
+    position:fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background:rgb(2, 136, 69) ;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 0.8);
+    z-index:100;
+    transition: 0.3s;}
+    
+ .btn-whatsapp:hover{
+  transform: rotate(360deg);
+    border: 3px solid chartreuse;
+    color: rgb(250, 250, 250);
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    transition: 0.3s;
+    margin: 0 auto;
+    
+   
+ }
+
+h1{
+    font-weight: bold;
+}
+.logo{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: 0.1s;
+    width: 80px;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.navbar-brand span{
+    color:chartreuse;
+    text-shadow: 2px 2px 2px black;
+}
+
+.nav-link{
+  
+    cursor: pointer;
+    transition: all 0.2s ;
+    text-shadow: 1px 2px 4px white;
+    
+}
+
+
+
+
+#barra{
+    background-color: #5A2875;
+    width: 100%;
+   
+}
+li{
+   
+   
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.2s ;
+    
+
+}
+li:hover{
+   text-decoration:overline white;
+    transform: scale(1.2);
+    transition: all 0.2s ;
+}
+
+
+
+
+/* BIENVENIDA */
+#home{
+    padding-top: 100px;
+}
+.btn-cv{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn-cv a{
+    text-decoration: none;
+}
+.btn-cv button{
+    color: #5A2875;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 27px;
+    width: 300px;
+    height: 60px;
+    transition: all 0.3s;
+    font-weight: bold;
+    box-shadow: 3px 4px 7px black;
+}
+.btn-cv button:hover{
+    transform: scale(1.04);
+    transition: all 0.3s;
+    background-color: #5A2875;
+    border: 4px solid chartreuse;
+    color: white;
+    font-weight: bold;
+}
+.contenedor-principal{
+    display: flex;
+    width: 100%;
+    padding: 50px 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-principal img{
+    width: 30%;
+    border: 7px solid cyan;
+    border-radius: 30px;
+}
+
+.contenido-principal h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.contenido-principal h3{
+    font-size: 40PX;
+    color: white;
+}
+
+.contenido-principal p{
+    color: white;
+    font-size: 30px;
+}
+.contenido-principal{
+    width: 900px;
+    height: 100%;
+    
+}
+
+/* CONTENEDOR SOBRE MI */
+
+.iconos {
+    width: 100px; /* Ancho fijo para todas las imágenes */
+    height: 100px; /* Alto fijo para todas las imágenes */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+    transition: all 0.5s ; 
+    
+  }
+.iconos:hover{
+    transform: rotate(360deg);
+}
+  .contenedor-iconos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    padding: 10px;
+
+  }
+.contenedor-secundario{
+    display: flex;
+    width: 100%;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+.contenedor-sobremi{
+    width: 900px;
+    height: 100%;
+    
+    
+}
+.contenedor-secundario h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+.contenedor-secundario p{
+    color: white;
+    font-size: 30px;
+}
+
+.contenedor-secundario .fotomia{
+    width: 40%;
+    border: 7px solid cyan;
+    border-radius: 30px;
+   
+}
+
+/* SECCION DE MIS PROYECTOS */
+#mis-proyectos{
+    padding-top: 120px;
+}
+.titulo{
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.titulo span{
+    color: chartreuse;
+}
+/* Contenedor de las cards */
+.contenedor-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+}
+
+/* Estilos para las cards */
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s;
+    box-shadow: 4px 5px 10px  black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    
+}
+
+.card-body {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.card-body h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn-visitar {
+    margin-top: 20px;
+}
+
+.btn-visitar button {
+    color: #5A2875;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 110px;
+    height: 40px;
+    transition: all 0.3s;
+    font-weight: bold;
+    box-shadow: 3px 4px 7px black;
+}
+.btn-visitar{
+    background-color: white;
+}
+
+.btn-visitar button:hover {
+    background-color: #5A2875;
+    color: white;
+    border: 2px solid chartreuse;
+    transition: all 0.3s;
+}
+/* CONTACTO STYLES */
+#contacto{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.contenedor-contacto{
+    display: flex;
+    justify-content: center;
+    padding: 50PX;
+    
+}
+.formulario{
+    max-width: 600px;
+   
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 20px black;
+}
+.form-group label {
+    font-weight: bold;
+    color: #ffffff;
+}
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+.btn-enviar {
+    color: #5A2875;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 28px;
+    width: 100%;
+    height: 60px;
+    transition: all 0.3s;
+    font-weight: bold;
+    box-shadow: 3px 4px 7px black;
+    margin-top: 40px;
+}
+.btn-enviar:hover {
+    transform: scale(1.04);
+    transition: all 0.3s;
+    background-color: #5A2875;
+    border: 4px solid chartreuse;
+    color: white;
+    font-weight: bold;
+}
+.formulario input{
+    border: 2px solid chartreuse;
+}
+
+.formulario textarea{
+    border: 2px solid chartreuse;
+}
+
+.contenedor-contacto img{
+    width: 30%;
+    border-radius: 1000px;
+    margin-right: 50px;
+    box-shadow: 4px 3px 10px black;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 3, 37);
+ }
+ .contenido-footer{
+    background-color:rgb(24, 3, 37);
+ }
+   
+ .contenido-footer h2{
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 1px 3px white;
+    background-color:rgb(24, 3, 37);
+ }
+
+ .contenido-footer h5{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 1px 3px white;
+    background-color:rgb(24, 3, 37);
+
+ }
+
+ .redes i{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 1px 3px white;
+    background-color:rgb(24, 3, 37);
+
+ }
+
+ .contenido-footer h5, h2{
+    text-align: center;
+    background-color:rgb(24, 3, 37);
+ }
+
+ .redes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+    background-color:rgb(24, 3, 37);
+ }
+ .redes a{
+    background-color:rgb(24, 3, 37);
+    transition: all 0.2s;
+ }
+
+ .redes a:hover {
+    transform: scale(1.4);
+    transition: all 0.2s;
+    color: cyan;
+    
+ }
+/* ANIMACIONES GOOD */
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+img ,p ,h2 ,h1 ,input,textarea,label{
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+
+
+
+
+
+/* Media Queries para responsividad */
+@media (max-width: 1200px) {
+    .contenedor-cards {
+        padding: 30px;
+        gap: 15px;
+    }
+    
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+
+
+/* Pantallas medianas (entre 768px y 1200px) */
+@media screen and (max-width: 1200px) {
+    .contenedor-cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 30px 50px;
+    }
+    .contenedor-contacto img{
+        display: none;
+     }
+     .contenedor-principal{
+        margin-top:60px ;
+    }
+    
+
+    .card {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-principal,
+    .contenedor-secundario {
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    .contenedor-principal img,
+    .contenedor-secundario img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .contenedor-secundario img{
+        order: 2;
+    }
+
+    .contenedor-sobremi,
+    .contenido-principal {
+        width: 100%;
+        text-align: center;
+    }
+    .btn-cv button {
+       
+        
+        margin: 20px;
+        
+    }
+    .contenedor-contacto img{
+        display: none;
+     }
+    
+    }
+
+/* Pantallas pequeñas (menor a 768px) */
+@media screen and (max-width: 767px) {
+    .contenedor-principal{
+        margin-top:60px ;
+    }
+    .contenedor-iconos {
+        gap: 40px;
+    }
+    .iconos {
+        width: 80px; /* Ajusta el tamaño de los iconos */
+        height: 80px;
+    }
+    
+
+    .contenedor-principal,
+    .contenedor-secundario {
+        padding: 20px;
+    }
+
+    .contenedor-principal img,
+    .contenedor-secundario img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+   
+
+    .contenedor-sobremi,
+    .contenido-principal {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contenedor-sobremi h1,
+    .contenido-principal h1 {
+        font-size: 50px;
+    }
+
+    .contenedor-sobremi p,
+    .contenido-principal p {
+        font-size: 20px;
+    }
+
+    .btn-cv button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 2em;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+
+    .formulario {
+        padding: 30px;
+    }
+
+    .contenedor-contacto img{
+       display: none;
+    }
+    .contenedor-contacto{
+        margin-left: 60px;
+    }
+   
+
+
+}
+@media screen and (max-width:766px){
+    .logo{
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    .contenedor-iconos {
+        gap: 20px;
+    }
+    .iconos {
+        width: 60px; /* Tamaño más pequeño para pantallas pequeñas */
+        height: 60px;
+    }
+
+    .form-group label {
+        font-size: 0.9em;
+    }
+
+    .form-control {
+        font-size: 0.9em;
+    }
+
+    .btn-enviar {
+        font-size: 0.9em;
+    }
+     .contenedor-principal{
+        margin-top:60px ;
+    }
+    
+
+    .contenedor-principal,
+    .contenedor-secundario {
+        padding: 20px;
+    }
+
+    .contenedor-principal img,
+    .contenedor-secundario img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+   
+
+    .contenedor-sobremi,
+    .contenido-principal {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contenedor-sobremi h1,
+    .contenido-principal h1 {
+        font-size: 50px;
+    }
+
+    .contenedor-sobremi p,
+    .contenido-principal p {
+        font-size: 20px;
+    }
+
+    .btn-cv button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 2em;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+
+    .formulario {
+        padding: 30px;
+    }
+
+    .contenedor-contacto img{
+       display: none;
+    }
+    .contenedor-contacto{
+        margin-left: 60px;
+    }
+
+   
+}
